@@ -1,5 +1,9 @@
-Que es una tabla:
-Que es una columna:
-Que son los campos:
+Que es una base de datos: Una colección organizada de datos que se almacenan y se gestionan electrónicamente. Los datos pueden estar relacionados entre sí y son accesibles mediante consultas.
+Que es una tabla: Una estructura dentro de una base de datos que organiza los datos en filas y columnas. Cada tabla almacena datos de un tema o entidad específica.
+Que es una columna: Una columna es un atributo de la entidad. Cada columna contiene un tipo específico de dato, como nombre, dirección o edad.
+Que son los campos: Son la unidad más pequeña de datos dentro de una tabla, que contiene un valor de un atributo específico. 
+Que es la Clave primaria: Un campo o conjunto de campos que identifica de manera única cada registro dentro de una tabla. Una clave primaria no puede contener valores nulos y debe ser única.
+Que es la Clave externa: Un campo en una tabla que se refiere a la clave primaria de otra tabla. Las claves foráneas se utilizan para establecer relaciones entre tablas.
+
+
 Que son los registros:
-que es una  :es un valor que caracteriza una dupla o una 
