@@ -1,3 +1,3 @@
 Como hacer la 1ra forma normal: 1NF exige que todos los atributos de una tabla sean atómicos y que cada tabla tenga una clave primaria única. 
-Como hacer la 2ds forma normal: 2NF requiere que todos los atributos no clave dependan completamente de la clave primaria.
+Como hacer la 2da forma normal: 2NF requiere que todos los atributos no clave dependan completamente de la clave primaria.
 Como hacer la 3ra forma normasl: 3NF requiere que no existan dependencias transitivas, es decir, que todos los atributos no clave dependan únicamente de la clave primaria.
