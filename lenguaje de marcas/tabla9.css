@@ -1,0 +1,22 @@
+table {
+    width: 150px; 
+    border: 1px solid black
+}
+th, td {
+    border: 1px solid black    ; 
+    padding: 3px; 
+    text-align: left; 
+}
+th {
+    background-color: lightgray; 
+    color: blue;
+}
+
+td {
+    vertical-align: top;
+    color: red; 
+}
+.medio{
+    text-align: center;
+    padding-top: 40%;
+}
