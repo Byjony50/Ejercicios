@@ -27,7 +27,6 @@ public class E09Filararray {
 	public static void main(String[] args) {
 		//variables y funciones
 		int fila1, fila2;
-		int columnas;
 		int[][] array = new int[8][10];
 		Random random = new Random();
 		Scanner sc = new Scanner(System.in);
@@ -39,7 +38,7 @@ public class E09Filararray {
 			}
 		}
 
-		// Mostrar el array por filas numeradas del 1 al 8
+		// Mostrar el array
 		System.out.println("Array inicial:");
 		for (int i = 0; i < array.length; i++) {
 			System.out.print("FILA " + (i + 1) + ": ");
@@ -58,10 +57,13 @@ public class E09Filararray {
 			fila2 = sc.nextInt();
 		} while (fila1 < 1 || fila1 > 8 || fila2 < 1 || fila2 > 8 || fila1 == fila2);
 
-		// Intercambiar el contenido de las dos filas
-		intercambiarFilas(array, fila1 - 1, fila2 - 1); 
+		// Intercambiar el contenido de las dos filas 
+		for(int i=0;i<array[0].length;i++) {
+			int aux=array[fila1-1][1];
+			array[fila1-1][i]=array[fila2-1][i];
+			array[fila2-1][i]=aux;
+		}
 
-		
 
 
 		// Volver a mostrar el array después del intercambio
@@ -74,20 +76,11 @@ public class E09Filararray {
 			System.out.println();
 		}
 
-
+			 
 		sc.close();
 	}
-
-
-	// Método para intercambiar dos filas del array
-	public static void intercambiarFilas(int[][] array, int fila1, int fila2) {
-		int[] temp = array[fila1];
-		array[fila1] = array[fila2];
-		array[fila2] = temp;
-
-
-	}
 }
+
 
 
 
