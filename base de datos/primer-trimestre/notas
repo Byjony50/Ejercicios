@@ -4,6 +4,6 @@ Que es una columna: Una columna es un atributo de la entidad. Cada columna conti
 Que son los campos: Son la unidad más pequeña de datos dentro de una tabla, que contiene un valor de un atributo específico. 
 Que es la Clave primaria: Un campo o conjunto de campos que identifica de manera única cada registro dentro de una tabla. Una clave primaria no puede contener valores nulos y debe ser única.
 Que es la Clave externa: Un campo en una tabla que se refiere a la clave primaria de otra tabla. Las claves foráneas se utilizan para establecer relaciones entre tablas.
-
+Que es una ternaria: Es cuando 2 o mas entidasdes estan en una relacion de n a m en un area cerrada
 
 Que son los registros:
