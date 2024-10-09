@@ -1,0 +1,13 @@
+En la terminal puedes poner:
+
+~= /home/user
+cd + nombre de archivo/carpeta: acceder a esa carpeta.
+ruta relativa: por ejemplo:
+
+pwd: para sabe donde te encuentras
+ls: ver lo que ahi dentro de la ruta en la que estas.
+ll: ver todo lo queahi dentro: archivos ocultos, archivos, directorios, y permisos.
+permisos: rwx
+r: permiso de lectura del archivo.
+w: permiso para modificar archivo.
+x: permiso para ejecutar el archivo o abrir la carpeta en la cual tiene ese permiso.
